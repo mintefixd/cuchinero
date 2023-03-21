@@ -1,0 +1,11 @@
+.menu{
+    background-color: #D2A186;
+}
+a.iniciar{
+   --bs-btn-bg: transparent;
+    background-color: #EDB7B7;
+}
+.logo_texto{
+  width: 150px;
+  height: 50px;
+}
