@@ -12,3 +12,22 @@ a.iniciar{
   width: 150px;
   height: 50px;
 }
+.iniciarSesion{
+   background-color: #FFD6D6;
+  height: 625px;
+}
+.enlaceLogo{
+  width:40%;
+}
+button.botonIniciar{
+  background-color:#BB4568;
+}
+button.botonIniciar:hover {
+  background-color: #BB4568;
+}
+a.botonCrearCuenta{
+   background-color:#BB4568;
+}
+a.botonCrearCuenta:hover {
+  background-color: #BB4568;
+}
