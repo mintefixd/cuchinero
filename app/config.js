@@ -28,3 +28,7 @@ export const auth = getAuth(app);
 export const db = getFirestore();
 
 //FUNCIONES CRUD
+// Servicio para guardar peliculas
+export const saveUsuarios = async (email, username) =>{
+  return await addDoc(collection(db,"usuarios"), {email, username})
+}
