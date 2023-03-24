@@ -3,9 +3,9 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import {getAuth} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js" 
+import { getAuth, updateProfile } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js"
 
-import {getFirestore, collection, addDoc, getDocs, onSnapshot, deleteDoc, doc, updateDoc} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js" //para CRUD
+import { getFirestore, collection, addDoc, getDocs, onSnapshot, deleteDoc, doc, updateDoc} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js" //para CRUD
 
 
 // Your web app's Firebase configuration
@@ -28,7 +28,7 @@ export const auth = getAuth(app);
 export const db = getFirestore();
 
 //FUNCIONES CRUD
-// Servicio para guardar peliculas
-export const saveUsuarios = async (email, username) =>{
-  return await addDoc(collection(db,"usuarios"), {email, username})
-}
+
+// Servicio para actualizar el nombre de usuario
+export const updateUsuario = (displayName) => updateProfile(auth.currentUser, {displayName})
+
