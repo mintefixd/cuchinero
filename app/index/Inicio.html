@@ -1,138 +1,176 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Inicio</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="../styles/styleInicio.css" rel="stylesheet">
-</head>
-
-<body>
-
-  <nav class="navbar bg-body-tertiary py-0 mx-0">
-    <div class="container-fluid menu p-2 m-0">
-      <img src="../images/logotexto.png" alt="logo-text" class="logo_texto ps-3">
-      <div class="d-flex flex-row me-1">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        </form>
-        <div class="dropdown lista p-0">
-          <button class="btn btn-secondary btn_lista p-0 w-100 h-100" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
-              viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <div>
-    <div class="row align-items-start mt-0">
-      <div class="col-2 ms-0 text-center mt-3">
-        <div class="bg-light rounded-4 h-100 p-3">
-          <h4>Etiquetas</h4>
-          <div class="d-flex flex-column">
-            <button type="button" class="btn m-2">Galleta</button>
-            <button type="button" class="btn m-2">Pastel</button>
-            <button type="button" class="btn m-2">Tarta</button>
-            <button type="button" class="btn m-2">Alfajor</button>
-            <button type="button" class="btn m-2">Helado</button>
-            <button type="button" class="btn m-2">Bizcocho</button>
+    <!doctype html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Inicio</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <link href="../styles/styleInicio.css" rel="stylesheet">
+    </head>
+    
+    <body>
+    
+      <nav class="navbar bg-body-tertiary py-0 mx-0">
+        <div class="container-fluid menu p-2 m-0">
+          <img src="../images/logotexto.png" alt="logo-text" class="logo_texto ps-3">
+          <div class="d-flex flex-row me-1">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            </form>
+            <div class="dropdown lista p-0">
+              <button class="btn btn-secondary btn_lista p-0 w-100 h-100" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-list my-custom-size"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-7">
-        <div class="publicacionFondo h-100 px-3 pt-5 pb-3">
-          <div class="publicacion rounded-4">
-            <div class="text-left ps-2 pt-2">
-              <h4>Usuario</h4>
-              <p class="text_publicacion">Publicacion:</p>
-              <p class="text_publicacion">Seguidores:</p>
-            </div>
-            <!--Carta de publicacion-->
-            <div class="card mt-0 card_post" id="mazamorra">
-              <div class="face front">
-                <img
-                  src="https://peru21.pe/resizer/2gLg8t9uDu8ygor7FY1Mk5GjuBY=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/MG7MIMA5VJFMLADPGPTDUSE7LM.jpg"
-                  alt="mazamorra">
-                <h3>Mazamorra</h3>
-              </div>
-              <div class="face back">
-                <div class="sombreado mt-2">
-                  <h7>Ingredientes</h7>
-                </div>
-                <ul class="m-2">
-                  <li>guguydashudshaihusdahids</li>
-                  <li>guguydashudshaihusdahids</li>
-                  <li>guguydashudshaihusdahids</li>
-                </ul>
-                <div>
-                  <a type="button" class="btn w-50 rounded-pill btn_verReceta  m-2" href="">Ver receta</a>
-                </div>
+      </nav>
+    
+      <div>
+        <div class="row align-items-start mt-0">
+          <div class="col-2 ms-0 text-center mt-3">
+            <div class="bg-light rounded-4 h-100 p-3">
+              <h4>Etiquetas</h4>
+              <div class="d-flex flex-column">
+                <button type="button" class="btn m-2">Galleta</button>
+                <button type="button" class="btn m-2">Pastel</button>
+                <button type="button" class="btn m-2">Tarta</button>
+                <button type="button" class="btn m-2">Alfajor</button>
+                <button type="button" class="btn m-2">Helado</button>
+                <button type="button" class="btn m-2">Bizcocho</button>
               </div>
             </div>
           </div>
-          <div>
+    
+          <div class="col-7 ">
+            <div class="publicacionFondo h-100 px-3 pt-5 pb-3  ">
+              <div class="publicacion rounded-4 container">
+                <div class="row contenido">
+                  <!--Carta de publicacion-->
+                  <div class="card mt-0 card_post p-3" id="mazamorra">
+                    <div class="face front">
+                      <div class="container">
+                    <div class="row align-items-start">
+                      <div class="col p-0">
+                      <img class="img_receta"
+                        src="https://peru21.pe/resizer/2gLg8t9uDu8ygor7FY1Mk5GjuBY=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/MG7MIMA5VJFMLADPGPTDUSE7LM.jpg"
+                        alt="mazamorra">
+                      </div>
+                      <div class="col">
+                        <h6 class="pt-2 username">Usuario</h6>
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="text_publicacion mb-1">Publicacion: 546</p>
+                          </div>
+                          <div class="col-6">
+                            <p class="text_publicacion mb-1">Seguidores: 156</p>
+                          </div>
+                        </div>
+                        <h4>Nombre del postre</h4>
+                        <p>Descripcion del postre</p>
+                      </div>
+                    </div>
+                    </div>   
+                    </div>
+                    
+            <div class="face back">
+                      <div class="sombreado text-center">
+                        <h5 class="py-1 mb-0">Ingredientes</h5>
+                      </div>
+                      <div class="container">
+                        <div class="row align-items-start mt-5">
+                        <div class="col-6">
+                          <ul>
+                        <li>guguydashudshaihusdahids</li>
+                        <li>guguydashudshaihusdahids</li>
+                        <li>guguydashudshaihusdahids</li>
+                      </ul>
+                        </div>
+                        <div class="col-6">
+                          <ul>
+                        <li>guguydashudshaihusdahids</li>
+                        <li>guguydashudshaihusdahids</li>
+                        <li>guguydashudshaihusdahids</li>
+                      </ul>
+                        </div>
+                        <a type="button" class="btn rounded-pill btn_verReceta mx-3 ms-5 p-1" href="">Ver receta</a>
+                      </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="row foot ps-3 pb-4 pt-3">
+                  <div class="col d-flex justify-content-center">
+                    <div class="bg-dark w-50 text-center p-2 h-15 rounded-pill">
+                    <button type="button" class="reaccionHeart" id="btnh1">
+                      <i class="bi bi-heart-fill"></i>
+                    </button>
+                    <button class="reaccionHeart" id="btnh1">
+                      <i class="bi bi-chat-fill text-light"></i>
+                    </button>
+                    <button class="reaccionHeart reaccion" id="btnh1">
+                      <i class="bi bi-send text-light"></i>
+                    </button>
+                  </div>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="publicacionFondo rounded-3 mb-4 p-3 mt-3">
+              <div class="text-left">
+                <h3 id="username">Usuario</h3>
+                <p>Publicacion:</p>
+                <p>Seguidores</p>
+              </div>
+            </div>
+    
+            <div class="publicacionFondo rounded-3 my-4 p-3">
+              <h4>Publicar</h4>
+              <div class="text-center">
+                <div class="d-flex flex-row align-items-center justify-content-around">
+                  <textarea style="height: 30px; width: 270px; border: none; border-bottom: 1px solid black;"></textarea>
+                  <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Subir</button>
+                </div>
+                <p>Crear una:</p>
+                <button type="button" class="btn btn-secondary btn-sm">Receta</button>
+                <button type="button" class="btn btn-secondary btn-sm">Truco</button>
+              </div>
+            </div>
+    
+            <div class="publicacionFondo rounded-3 my-4 p-3">
+              <div class="text-left">
+    
+                <h3>Usuarios Recomendados</h3>
+                <div class="perfil_01 d-flex flex-row">
+                  <img class="emperador" src="../images/hola.jpg" alt="perfil" class="w-75">
+                  <p class="nombre"> <b>Carla James</b></p>
+    
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-3">
-        <div class="publicacionFondo rounded-3 mb-4 p-3 mt-3">
-          <div class="text-left">
-            <h3 id="username">Usuario</h3>
-            <p>Publicacion:</p>
-            <p>Seguidores</p>
-          </div>
-        </div>
-
-        <div class="publicacionFondo rounded-3 my-4 p-3">
-          <h4>Publicar</h4>
-          <div class="text-center">
-            <div class="d-flex flex-row align-items-center justify-content-around">
-              <textarea style="height: 30px; width: 270px; border: none; border-bottom: 1px solid black;"></textarea>
-              <button type="button" class="btn btn-secondary"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Subir</button>
-            </div>
-            <p>Crear una:</p>
-            <button type="button" class="btn btn-secondary btn-sm">Receta</button>
-            <button type="button" class="btn btn-secondary btn-sm">Truco</button>
-          </div>
-        </div>
-
-        <div class="publicacionFondo rounded-3 my-4 p-3">
-          <div class="text-left">
-
-            <h3>Usuarios Recomendados</h3>
-            <div class="perfil_01 d-flex flex-row">
-              <img class="emperador" src="../images/hola.jpg" alt="perfil" class="w-75">
-              <p class="nombre"> <b>Carla James</b></p>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script type="module" src="../../main.js"></script>
-</body>
-
-</html>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+      <script type="module" src="../../main.js"></script>
+      <script type="module" src="../../utils/button_like.js"></script>
+    </body>
+    
+    </html>

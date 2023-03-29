@@ -1,0 +1,28 @@
+.logo_texto{
+  width: 150px;
+  height: 50px;
+}
+/*Style Navbar*/
+.menu{
+    background-color: #D2A186;
+}
+.my-custom-size{
+  font-size: 20px;
+}
+.lista{
+width: 50px;
+height: 40px;
+}
+.btn_lista{
+  border: none;
+  background: none;
+}
+/*Botones de las etiquetas*/
+.btn{
+  color: #000000;
+}
+/*Darle otro color al boton al pasar el mouse*/
+button.btn:hover {
+  background-color: #BB4568;
+  color: white;
+}

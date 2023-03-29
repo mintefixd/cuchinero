@@ -1,0 +1,38 @@
+body{
+  background-color: #FFD6D6;
+  margin: 0px 0px auto;
+}
+.publicacionFondo{
+  background-color: #FFF4F4;
+}
+.my-custom-size{
+  font-size: 20px;
+}
+.lista{
+width: 50px;
+height: 40px;
+}
+.btn_lista{
+  border: none;
+  background: none;
+}
+/*Botones de las etiquetas*/
+.btn{
+  color: #000000;
+}
+/*Darle otro color al boton al pasar el mouse*/
+button.btn:hover {
+  background-color: #BB4568;
+  color: white;
+}
+.textodetitulo{
+  font-size: 1.6rem;
+}
+.btn_publicar{
+  background-color: rgba(225, 82, 116, 0.5);
+  color: #000000;
+  border: none;
+}
+button.btn_publicar:hover{
+  
+}

@@ -1,0 +1,52 @@
+body{
+background-color: #FFD6D6;
+}
+
+.container-receta {
+display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.formReceta{
+  width: 700px;
+}
+.contenido{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.publicacionFondo{
+background-color: #FFF4F4;
+}
+
+.publicacion{
+width: 500px;
+}
+
+.texto-titulo{
+background-color: #ffebeb;
+}
+
+.texto-descripcion{
+background-color: #ffffebDD;
+}
+
+.texto-ingredientes{
+background-color: #ffebeb;
+}
+
+.texto-procedimiento{
+background-color: #ffffebDD;
+}
+
+.botoncito{
+background-color: #bdf4ff;
+margin: 10px;
+ --bs-text-black: 1;
+ color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+ --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .40rem; --bs-btn-font-size: .90rem;
+}
+
+
